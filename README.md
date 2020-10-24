@@ -1,8 +1,8 @@
-Ahmad Zaky
+# Ahmad Zaky
 ---
-# CAFEPEDIA APP
+## CAFEPEDIA APP
 
-Cafepedia Website is ...
+Cafepedia Website is a website that will provide a tools that can help people that have a business in cafe or restaurant sector. This website can help them doing their business more digitally.
 
 **Built with:**
 * [React js](https://reactjs.org/)

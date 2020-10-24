@@ -9,7 +9,7 @@ import {
 class ModalAdd extends React.Component {
   state = {
     name: "",
-    image: null,
+    picture: null,
     price: null,
     id_category: 1,
   };
@@ -17,7 +17,7 @@ class ModalAdd extends React.Component {
   handleSubmit = () => {
     let formData = new FormData();
     formData.append("name", this.state.name);
-    formData.append("image", this.state.image);
+    formData.append("picture", this.state.picture);
     formData.append("price", this.state.price);
     formData.append("id_category", this.state.id_category);
 
@@ -87,18 +87,18 @@ class ModalAdd extends React.Component {
                 </div>
                 <div className="row">
                   <div className="col-2">
-                    <label htmlFor="image">Image</label>
+                    <label htmlFor="picture">Image</label>
                   </div>
                   <div className="col-10">
                     <input
                       className="form-control-file shadow"
                       name="picture"
                       type="file"
-                      id="image"
+                      id="picture"
                       autoComplete="off"
                       onChange={(event) =>
                         this.setState({
-                          image: event.target.files[0],
+                          picture: event.target.files[0],
                         })
                       }
                     />
