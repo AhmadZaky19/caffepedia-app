@@ -31,7 +31,7 @@ class Login extends React.Component {
     event.preventDefault();
 
     if (this.state.user.username !== "" && this.state.user.password !== "") {
-      const url = "http://localhost:8000/auth/login";
+      const url = "http://54.227.91.97:8000/auth/login";
       Axios.post(url, this.state.user, {
         headers: { token: localStorage.getItem("token") },
       })

@@ -46,6 +46,12 @@ button.close {
   margin-top: -30px;
 }
 
+.img-cart {
+  margin-top: 1vh;
+  height: 11.5vh;
+  width: 7vw;
+}
+
 /* responsive breakpoint */
 @media screen and (min-width: 767px) {
   .close-btn {

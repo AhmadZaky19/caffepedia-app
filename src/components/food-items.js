@@ -34,11 +34,10 @@ const FoodItem = ({ handleShow }) => {
   }, [menuAndCart.status]);
 
   const fetchMore = () => {
-    console.log("yaaa lagi");
     setPage(page + 1);
     setTimeout(() => {
       dispatch(getMoreMenuCreator(page));
-    }, 1000);
+    }, 2000);
   };
 
   return (
