@@ -1,0 +1,14 @@
+.modal-select-body{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10vh;
+}
+.modal-select-btn.btn{
+    width: 40%;
+    padding: 2vh 2vw;
+    background: #5DADE2;
+    color: black;
+    font-weight: bolder;
+    font-size: x-large;
+    border-radius: 20px;
+}

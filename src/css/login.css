@@ -1,0 +1,98 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+main.login {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border-color: aqua;
+  background-image: url("https://cdn.pixabay.com/photo/2020/07/18/16/29/coffee-5417663_1280.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content-login {
+  color: black;
+  width: 60vw;
+  height: 80vh;
+  background-color: transparent;
+}
+.content-login label {
+  font-size: 23px;
+}
+.content-login .card {
+  background: transparent;
+  border: none;
+}
+.content-login .card .card-body {
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+}
+.col-md-12.login {
+  font-family: "Roboto", sans-serif;
+  height: 83vh;
+  background-color: rgba(203, 204, 206, 0.89);
+  padding: 50px;
+  border-radius: 0 10px 10px 0;
+}
+.form.login {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.form.login .form-group {
+  width: 80%;
+}
+.col-md-12.login h2 {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.col-md-12.login p {
+  text-align: center;
+  font-style: italic;
+  font-size: small;
+  color: rgb(172, 80, 80);
+}
+.btn-login {
+  text-align: center;
+  color: white;
+  background: rgb(0, 0, 0);
+  width: 100%;
+}
+.btn {
+  width: 100%;
+}
+.btn-login:hover {
+  color: white;
+  background: rgb(0, 0, 0);
+}
+.link-account {
+  color: black;
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 1em;
+}
+.link-account:hover {
+  color: black;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .col-md-6.login {
+    border-radius: 10px;
+    padding-bottom: 10px;
+  }
+  .link-account {
+    font-size: 0.8em;
+  }
+  .form {
+    padding-bottom: 20px;
+  }
+}
