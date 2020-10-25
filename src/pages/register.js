@@ -94,7 +94,7 @@ class Register extends React.Component {
                           className="btn btn-login"
                           onClick={this.handleSubmit}
                         >
-                          Submit
+                          Register
                         </button>
                       </div>
                       <Link className="link-account" to="/login">

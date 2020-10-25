@@ -112,7 +112,7 @@ const FoodItem = ({ handleShow }) => {
                 dispatch(getMenuCreator());
               }}
             >
-              See all menus
+              See All Menu
             </button>
           </div>
         </div>

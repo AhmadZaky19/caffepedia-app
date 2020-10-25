@@ -133,7 +133,7 @@ class Login extends React.Component {
                           className="btn btn-login"
                           onClick={this.handleSubmit}
                         >
-                          login
+                          Login
                         </button>
                       </div>
                       <Link className="link-account" to="/register">
