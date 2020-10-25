@@ -104,7 +104,7 @@ const FoodItem = ({ handleShow }) => {
       ) : (
         <div className="items empty d-flex align-items-center">
           <div className="empty-cart">
-            <h2>Sorry, menu is unavailable</h2>
+            <h2>Menu is Unavailable</h2>
             <button
               type="button"
               class="btn btn-primary"

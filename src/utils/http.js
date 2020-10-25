@@ -40,18 +40,18 @@ export const addTrans = (invoice, cashier, orders, amount) => {
 };
 
 export const getHistory = () => {
-  const url = "http://54.227.91.97:8000/history/getall";
+  const url = "http://52.205.254.99:8000/history/getall";
   return Axios.get(url, {
     headers: { "x-access-token": "bearer " + localStorage.getItem("token") },
   });
 };
 
 export const getMoreMenu = (page) => {
-  const url = `http://54.227.91.97:8000/?page=${page}&limit=6`;
+  const url = `http://52.205.254.99:8000/?page=${page}&limit=6`;
   return Axios.get(url);
 };
 export const deleteMenu = (id) => {
-  const url = `http://54.227.91.97:8000/?id=${id}`;
+  const url = `http://52.205.254.99:8000/?id=${id}`;
   return Axios.delete(url);
 };
 
@@ -72,7 +72,7 @@ export const editMenu = (name, picture, price, id_category, id_menu) => {
       "content-type": "multipart/form-data",
     },
   };
-  const url = "http://54.227.91.97:8000/";
+  const url = "http://52.205.254.99:8000/";
   console.log(FormData);
   return Axios.patch(url, data, config);
 };
