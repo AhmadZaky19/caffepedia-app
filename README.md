@@ -2,6 +2,8 @@
 ---
 ## CAFEPEDIA APP
 
+This is a repository of Caffepedia App. For the API repository, you can check it in [here](https://github.com/AhmadZaky19/caffepedia-api-backend)
+
 Cafepedia Website is a website that will provide a tools that can help people that have a business in cafe or restaurant sector. This website can help them doing their business more digitally.
 
 **Built with:**
